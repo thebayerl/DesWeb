@@ -350,7 +350,7 @@
             }
             
             .watch-listen-link:hover {
-                
+                text-decoration: underline;
                 color:#1167a8;
                 
             }
