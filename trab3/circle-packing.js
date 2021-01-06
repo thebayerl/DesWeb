@@ -1,8 +1,13 @@
-xmax = 1080;
-ymax = 500;
 dot_list = [];
 rmin = 2;
 var state = false;
+
+var bd = document.getElementById("bd");
+bd.style.cssText = "width:" + screen.width + "px; height:" + screen.height + "px;"
+
+var bg = document.getElementById("bg")
+xmax = bg.offsetWidth;
+ymax = bg.offsetHeight;
 
 function startnstop(){
     if(state){
