@@ -84,6 +84,7 @@ function refresh(){
             document.getElementById("bg").appendChild(createSquare(i,j));
         }
     }
+    document.getElementById("score").innerHTML = game.getScore();
 }
 
 // Start()
