@@ -21,7 +21,7 @@ var cells = [];
 
 // element that include all cells
 var bd = document.getElementById("bd");
-bd.style.cssText = "width:" + screen.width + "px; height:" + screen.height + "px;"
+bd.style.cssText = "width:" + 1300 + "px; height:" + 470 + "px;"
 
 // function to create a Icon in the screen
 // receive i = row and j column
